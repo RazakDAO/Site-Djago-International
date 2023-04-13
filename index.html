@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap-5.2.3-dist/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js" integrity="sha512-m6yoLgVKgoQV7RykPdExuDX7vhcIm3/pZ0XegsoIZk0/1zLd3lmr3p32iKMckYjHlFtT1UGt2CfRnHn8GjsLsQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-black">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="Images/djago.jpg" class="img-fluid w-30" alt="Bootstrap" width="30" height="24">
+      </a>
+    </div>
+    <div class="container">
+      <a class="navbar-brand" href="#">Mon site</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">NOS EXPERTISES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SOLUTION DE GESTIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">A PROPOS</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/image 1.png" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption">
+          <h5>DJAGO INTERNATIONAL</h5>
+          <p>DJAGI-I membre du groupe LS,Integrateur de solution informatique depuis 25 ans et acteur de transformation digital</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/image 2.png" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption">
+          <h5>DJAGO INTERNATIONAL</h5>
+          <p>DJAGI-I membre du groupe LS,Integrateur de solution informatique depuis 25 ans et acteur de transformation digital</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/images 3.png" class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption">
+          <h5>DJAGO INTERNATIONAL</h5>
+          <p>DJAGI-I membre du groupe LS,Integrateur de solution informatique depuis 25 ans et acteur de transformation digital</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="d-flex position-relative">
+    <img class="w-20" src="data:image/jpeg;base64,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" class="flex-shrink-0 me-3" alt="...">
+    <div>
+      <h5 class="mt-0">DJAGO INTERNATIONAL </h5>
+      <p>est une entreprise basée au BURKINA FASO et membre du GROUPE LS </p>
+      <a href="https://www.groupels.com/" class="stretched-link">Site Groupe LS</a>
+    </div>
+  </div>
+  
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Gestion commerciale
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <strong> Les experts de Groupe Logiciels et Services vous aident à améliorer votre rentabilité:</strong> Votre entreprises a besoin de mieux coordonner et d’automatiser l’ensemble des processus de gestion commerciale. Votre volonté est d’optimiser vos performances en suivant l’ensemble du cycle de vente, de la génération de devis à la facturation en passant par la commande, la livraison… Vous souhaitez rester connecté à l’ensemble de vos processus de gestion grâce à un espace de travail dématérialisé et sécurisé.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Gestion des immobilisations
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+       Le logiciel de gestion des immobilisations prend en charge l’intégralité des opérations de gestion des biens d’équipement, depuis leur acquisition jusqu’au calcul des amortissements. Il permet le suivi des acquisitions et cessions. Il établit des prévisions de charges.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Gestion Business,Intelligence & Reporting
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        Prévenir les risques est un enjeu majeur. Il demande à avoir une visibilité totale sur son activité financière. Pilotez de paire votre activité et vos moyens financiers constitue un sacré défi.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Gestion comptable et financière
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <strong>Les experts certifiés de Groupe Logiciels et Services vous apportent la solution.</strong> Les services comptables et financiers de votre entreprise sont en permanence surchargés et vos délais de clôture s’en ressentent. Vous jugez le suivi des clients insuffisant. Les travaux d’encodage sont fastidieux.
+        Au quotidien, le pilotage efficace des affaires voudrait que vous puissiez accéder en temps réels à vos indicateurs d’aide à la performance. Vous voudriez pouvoir le faire quand vous le décidez, depuis le siège comme en mobilité.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Gestion budgétaire
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        Afin de pouvoir planifier ses dépenses et de piloter ses finances de façon structurée, quoi de mieux qu’une bonne budgétisation. Toutefois, l’ensemble des processus permettant la mise en place de ce budget reste complexe. La digitalisation de ce processus est plus que nécessaire.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Gestion de la paie et du capital humain
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <strong>L’équipe experte de Groupe Logiciels et Services est là pour vous aider dans l’étude du besoin et l’implémentation du produit qui apportera de la sérénité dans l’entreprise et améliorera la performance des collaborateurs.</strong> La responsabilité des gestionnaires des RH ne se limite plus aujourd’hui à la gestion administrative. C’est l’ensemble de la valorisation du capital humain qui doit être pris en charge : gestion de la paie, des effectifs, des congés, des plans de formation…
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+     <img src="Images/part 63.jpg" alt="">
+    </div>
+    <div class="col">
+      <img src="Images/part1.jpg" alt="">
+    </div>
+    <div class="col">
+      <img src="Images/part4.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="card bg-black">
+  <div class="card-header">
+    Quote
+  </div>
+  <div class="card-body bg-black">
+    <blockquote class="blockquote mb-0">
+      <p>A well-known quote, contained in a blockquote element.</p>
+      <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </blockquote>
+  </div>
+</div>
+  
+  <script>
+  // Activer le contrôle automatique du défilement pour le Carousel
+  $('#myCarousel').carousel({
+    interval: 3000 // en millisecondes
+  })
+  
+  // Personnaliser la transition entre les diapositives
+  $('#myCarousel').carousel({
+    pause: 'hover',
+    wrap: false
+  })
+  
+  // Ajouter des légendes pour chaque diapositive
+  $('#myCarousel').on('slide.bs.carousel', function (e) {
+    var slideIndex = $(e.relatedTarget).index();
+    var $caption = $('.carousel-caption');
+    $caption.eq(slideIndex)
+      .addClass('active')
+      .siblings()
+      .removeClass('active');
+  })
+  </script>
+  
+</body>
+</html>
